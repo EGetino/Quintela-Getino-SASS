@@ -11,7 +11,7 @@
         width: 80px;
         transition: all .3s;
 
-        &hover {
+        &:hover {
             transform: scale(1.1);
         }
     }
@@ -27,7 +27,7 @@
 .nav-link {
     transition: all 0.3s;
 
-    &hover {
+    &:hover {
         font-weight: 800;
         color: #ffc0cb;
     }
@@ -36,7 +36,7 @@
 .nav-item a img{
     transition: transfrom .3s;
 
-    &hover {
+    &:hover {
         transform: scale(1.1);
     }
 }

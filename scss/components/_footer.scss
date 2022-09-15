@@ -1,19 +1,23 @@
+
+
 .footer__nav li a {
     color: white;
     transition: color .3s;
 
-    &hover {
+    &:hover {
         color: black;
     }
 }
 
+
 .footer__brand {
     transition: transfrom .3s;
 
-    &hover {
+    &:hover {
         transform: scale(1.1);
     }
 }
+
 
 .footer__socials  {
     list-style-type: none;
