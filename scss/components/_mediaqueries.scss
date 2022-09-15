@@ -1,0 +1,68 @@
+@media (max-width:992px){
+
+    .aboutus {        
+        display: flex;
+        flex-direction: column;         
+    }
+    .hero__content-socials {
+        display: none;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .hero_content h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .products__org {
+        display: none;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    /* .aboutus_img {
+        transform: scale(0.5);
+    } */
+}
+
+
+@media (max-width:527px){
+    .prodmenu {
+        display: none;
+    }
+
+    .aboutus-img  img {
+        width: 450px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .aboutus-img  img {
+        width: 350px;
+    }
+
+    .hero_content h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .hero__button {    
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 1rem;
+        
+    }
+    
+    .hero__content-socials .wpp {
+        display: none;
+    }
+
+
+}

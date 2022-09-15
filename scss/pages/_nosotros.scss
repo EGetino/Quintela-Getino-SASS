@@ -1,0 +1,47 @@
+.aboutus_main {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.aboutus {
+    padding: 40px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    gap: 30px; 
+    
+}
+
+.aboutus-img  img{
+    border-radius: 10%;
+    border: solid 10px #ffc0cb;
+    width: 500px;
+
+    transition: all .2;
+
+}
+
+.aboutus div p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+
+@keyframes animacion {
+    0% {
+        transform: translateY(100vh) scale(1);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(0);
+    }
+}
+
+.slide-in-right{animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both}
+ @keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+.slide-in-left{animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}

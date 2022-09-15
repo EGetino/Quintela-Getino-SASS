@@ -36,3 +36,21 @@
 .nav-item a img:hover {
     transform: scale(1.1);
 }
+
+.header__pages {
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url("../asetts/img/BudínNaranja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.pagestitle h1 {
+    margin: 10px;
+
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;       
+    font-size: 2em;
+}

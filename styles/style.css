@@ -127,7 +127,7 @@ ul {
 
 /*-------------- comienzo de header-pages ----------- */
 
-.header__pages {
+/* .header__pages {
     display: flex;
     flex-direction: column;
     
@@ -143,14 +143,14 @@ ul {
     text-align: center;
     font-family: 'Playfair Display SC', serif;       
     font-size: 2em;
-}
+} */
 /* --------------- fin de header ---------------*/
 
 /* ------------- comienzo de main -------------*/
 
 /* ----------- productos.html-----------*/
 
-.prodmain {
+/* .prodmain {
     padding: 40px;
 
     display: flex;
@@ -189,7 +189,6 @@ ul {
 
 .products__cards {
     display: flex;
-    /* flex-direction: row; */
     flex-flow: row wrap;
     justify-content: space-evenly;
     gap: 30px;
@@ -256,12 +255,12 @@ ul {
 .card__header{
     position: relative;
     z-index: 1;
-}
+} */
 
 
 /* ---------- nosotros.html-----------*/
 
-.aboutus_main {
+/* .aboutus_main {
     min-height: 100vh;
     background-color: white;
 }
@@ -301,12 +300,12 @@ ul {
     100% {
         transform: translateY(-10vh) scale(0);
     }
-}
+} */
 
 
 /* ---------- contacto.html-----------*/
 
-    .cards-wrapper {
+    /* .cards-wrapper {
         display: flex;
         justify-content: space-evenly;
     }
@@ -319,17 +318,17 @@ ul {
         background-color: #ffc0cb;
         background-size: 100% 100%;
         width: 100%;
-    }
+    } */
 
 
 /* ---------- preguntas.html-----------*/
 
-.questions {
+/* .questions {
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} */
 
 /* ------------- fin de main -------------*/
 
@@ -362,7 +361,7 @@ ul {
     transform: scale(1.1);
 } */
 
-.whatsapp { 
+/* .whatsapp { 
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -375,13 +374,13 @@ ul {
 
 .whatsapp img:hover {
     width: 55px;
-}
+} */
 
 /* ------------- fin de footer-------------*/
 
 /* ------------- MEDIA QUERIES-------------*/
 
-@media (max-width:992px){
+/* @media (max-width:992px){
 
     .aboutus {        
         display: flex;
@@ -404,16 +403,16 @@ ul {
         display: none;
     }
 
-}
+} */
 
-@media (max-width:576px) {
+/* @media (max-width:576px) {
 
-    /* .aboutus_img {
+    .aboutus_img {
         transform: scale(0.5);
-    } */
-}
+    }
+} */
 
-
+/* 
 @media (max-width:527px){
     .prodmenu {
         display: none;
@@ -448,19 +447,19 @@ ul {
     }
 
 
-}
+} */
 
 
 /* ------------- ANIMISTA-------------*/
 
-.tracking-in-expand{animation:tracking-in-expand 1.5s cubic-bezier(.215,.61,.355,1.000) both}
+/* .tracking-in-expand{animation:tracking-in-expand 1.5s cubic-bezier(.215,.61,.355,1.000) both}
  @keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 
 .fade-in{animation:fade-in 1.8s cubic-bezier(.39,.575,.565,1.000) both}
-@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}} */
 
-.slide-in-right{animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both}
+/* .slide-in-right{animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both}
  @keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
 
 .slide-in-left{animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both}
-@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}} */
