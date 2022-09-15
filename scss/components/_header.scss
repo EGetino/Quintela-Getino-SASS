@@ -6,15 +6,17 @@
 .navbar-brand {
     margin-right: 0;
     padding: 0 2em;
+
+    img {
+        width: 80px;
+        transition: all .3s;
+
+        &hover {
+            transform: scale(1.1);
+        }
+    }
 }
 
-.navbar-brand img {
-    width: 80px;
-    transition: all .3s;
-}
-.navbar-brand img:hover {
-    transform: scale(1.1);
-}
 
 .navbar .navbar-nav .nav-link {
     font-family: 'Open Sans', sans-serif;
@@ -24,24 +26,26 @@
 
 .nav-link {
     transition: all 0.3s;
-}
-.nav-link:hover {
-    font-weight: 800;
-    color: #ffc0cb;
+
+    &hover {
+        font-weight: 800;
+        color: #ffc0cb;
+    }
 }
 
-.nav-item a img:hover{
+.nav-item a img{
     transition: transfrom .3s;
-}
-.nav-item a img:hover {
-    transform: scale(1.1);
+
+    &hover {
+        transform: scale(1.1);
+    }
 }
 
 .header__pages {
     display: flex;
     flex-direction: column;
     
-    background-image: url("../asetts/img/BudínNaranja.png");
+    background-image: url("/asetts/img/BudínNaranja.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;   
@@ -54,3 +58,4 @@
     font-family: 'Playfair Display SC', serif;       
     font-size: 2em;
 }
+
