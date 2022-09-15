@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUINTELA</title>
+    <link rel="shortcut icon" href="../asetts/img/logo.png.png" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+
+<body>
+
+    <!------------------- comienzo de header ------------------->
+    <header class="sticky-top header__pages">
+        <nav class="navbar navbar-expand-lg bg-light" style="--bs-bg-opacity: .5;">
+            <div class="container-fluid">
+                <a class="navbar-brand d-lg-none" href="../index.html">
+                    <img src="../asetts/img/logo.png.png" alt="Inicio">
+                </a>                    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link active " aria-current="page" href="#">                                
+                            <img src="../asetts/img/logo-lupa.png" alt="Buscar" width="40px">
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PRODUCTOS
+                        </a>
+                        <ul class="dropdown-menu bg-light" style="--bs-bg-opacity: .5;">
+                            <li><a class="dropdown-item fw-bold" href="../pages/productos.html">TODO</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#alfajoresCard">Alfajores</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#budinesCard">Budines</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#browniesCard">Brownies</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#cookiesCard">Cookies</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#minitortasCard">Mini Tortas</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#tartasCard">Tartas</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html#tortasCrd">Tortas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <a class="navbar-brand d-none d-lg-block" href="../index.html">
+                        <img src="../asetts/img/logo.png.png" alt="Inicio">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/preguntas.html">PREGUNTAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="../asetts/img/carrito.png" alt="Ir al carrito" width="40px">
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="pagestitle">
+            <h1>CONTACTO</h1>
+        </div>
+    </header>              
+    <!------------------ fin de header -------------------->    
+
+    <!---------------- comienzo de main ------------------->    
+    <main>
+        <section class="head_contact pb-5">
+            <div class="container py-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="font-weight-light text-center py-3">Contactanos</h1>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="row pt-3 ms-4">
+                                    <div class="col-lg-1 offser-1 col-md-2 col-sm-2 col-2">
+                                        <img src="../asetts/img/logo-maps.png" alt="ubicacion" width="30px">
+                                    </div>
+                                    <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                                        <h3 class="font-weight-light">Encontranos en</h3>
+                                        <p>Los Alerces 311, Saavedra <br> Comodoro Rivadavia, Chubut.</p>
+                                    </div>
+                                </div>
+                                <div class="row pt-3 ms-4">
+                                    <div class="col-lg-1 offser-1 col-md-2 col-sm-2 col-2">
+                                        <img src="../asetts/img/logo-email.png" alt="telefono" width="30px">
+                                    </div>
+                                    <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                                        <h3 class="font-weight-light">Escribinos al</h3>
+                                        <p>000-000000, ó <br> quintela_pastelería@gmail.com</p>
+                                    </div>
+                                </div>                             
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <form class="me-4">
+                                    <div class="form-row ">
+                                        <div class="form-group  ">
+                                            <label>Nombre</label>
+                                            <input type="text" class="form-control" placeholder="Nombre">
+                                        </div>
+                                        <div class="form-group ">
+                                            <label>Apellido</label>
+                                            <input type="text" class="form-control" placeholder="Apellido">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label for="">Email</label>
+                                        <input type="email" placeholder="Email" class="form-control">
+                                    </div>
+                                    <div>
+                                        <label> Mensaje</label>
+                                        <textarea placeholder="Dejanos tu mensaje" class="form-control mb-3" id="" cols="30" rows="5"></textarea>
+                                    </div>
+                                    
+                                   
+                                    <input type="checkbox"> <label>Quiero recibir novedades</label>
+                                    <button class="btn btn-secondary float-end">Enviar</button>
+                                </form>
+                            </div>
+    
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+    </main>             
+    <!--------------- fin de main ------------------>
+
+    <!------------- comienzo de footer ------------->
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row p-2 bg-secondary text-white">
+                <div class=" col-md-4 d-flex flex-column align-items-center">
+                    <h2 class="footer__h2 mt-4 ms-4">Navegación</h2>
+                    <ul class="footer__nav text-right
+                    ">
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li>
+                            <a href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="../pages/preguntas.html">Preguntas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-md-4 d-flex flex-column align-items-center">
+                    <a href="../index.html"><img class="footer__brand" src="../asetts/img/logo.png.png" alt="logo QUINTELA" width="80px"></a>
+                    <h5>Nuestra Redes </h5>
+                    <ul class="footer__socials d-flex">
+                        <li>
+                            <a href="#" class="me-3"><img src="../asetts/img/logo-wpp.png" alt="whatsapp" width="35px"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="me-3"><img src="../asetts/img/logo-fb.png" alt="facebook" width="35px"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="me-3"><img src="../asetts/img/logo-ig.png" alt="instagram" width="35px"></a>
+                        </li>
+                        
+                    </ul>
+                    <p>QUINTELA 2022 &copy; | Todos los derechos reservados</p>
+                </div>
+                
+                <div class=" col-md-4 d-flex flex-column align-items-center mt-4" >
+                    <h2>Contactanos</h2>
+                    <ul class="footer__contact">
+                        <li class="d-flex">
+                            <a href="#"><img src="../asetts/img/logo-maps.png" alt="mapa" width="20px"></a>
+                            <p class="ms-2">Los Alerces 311, Saavedra, Comodor Rivadavia</p>
+                        </li>
+                        <li class="d-flex">
+                            <a href="#"><img src="../asetts/img/logo-email.png" alt="e-mail" width="20px"></a>
+                            <p class="ms-2 ">quintela_pastelería@gmail.com</p>
+                        </li>
+                        <li class="d-flex">
+                            <a href="#"><img src="../asetts/img/logo-tel.png" alt="telefono" width="20px"></a>
+                            <p class="ms-2">000-000000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <a class="whatsapp" href="">
+                <img src="../asetts/img/logo-wpp-verde.png" alt="whatsapp" width="50px">
+            </a>
+        </div>
+        
+    </footer>
+    <!------------- fin de footer ------------->
+
+</body>
+</html>                        
+            
+     
