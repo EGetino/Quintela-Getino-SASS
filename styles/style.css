@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Playfair+Display+SC:wght@400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Playfair+Display+SC:wght@400;700;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    /* font-family: 'Open Sans', sans-serif;
-    font-family: 'Playfair Display SC', serif; */
-}
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+} */
 
-a {
+/* a {
     text-decoration: none;
     color: black;
 }
 
 ul {
     list-style-type: none;
-}
+} */
 
 
 /*-------------- comienzo de header---------------- */
 
-
+/* 
 .navbar-nav {
     align-items: center;
 }
@@ -58,8 +58,8 @@ ul {
 }
 .nav-item a img:hover {
     transform: scale(1.1);
-}
-
+} */
+/* 
 .hero {
     min-height: 100vh;
     max-height: 100%;
@@ -123,7 +123,7 @@ ul {
 
 .social_media:hover {
     transform: translateY(-10px);
-}
+} */
 
 /*-------------- comienzo de header-pages ----------- */
 
@@ -335,7 +335,7 @@ ul {
 
 /*---------------- comienzo de footer -----------------*/
 
-
+/* 
 .footer__socials  {
     list-style-type: none;
 
@@ -360,7 +360,7 @@ ul {
 
 .footer__brand:hover {
     transform: scale(1.1);
-}
+} */
 
 .whatsapp { 
     position: fixed;

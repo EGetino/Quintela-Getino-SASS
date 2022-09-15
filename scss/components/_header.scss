@@ -1,0 +1,38 @@
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 0;
+    padding: 0 2em;
+}
+
+.navbar-brand img {
+    width: 80px;
+    transition: all .3s;
+}
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar .navbar-nav .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    padding: .5em 2em;
+}
+
+.nav-link {
+    transition: all 0.3s;
+}
+.nav-link:hover {
+    font-weight: 800;
+    color: #ffc0cb;
+}
+
+.nav-item a img:hover{
+    transition: transfrom .3s;
+}
+.nav-item a img:hover {
+    transform: scale(1.1);
+}

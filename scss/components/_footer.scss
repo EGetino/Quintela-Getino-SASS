@@ -1,0 +1,26 @@
+
+.footer__socials  {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__nav li a {
+    color: white;
+    transition: color .3s;
+}
+
+.footer__nav li a:hover {
+    color: black;
+}
+
+.footer__brand {
+    transition: transfrom .3s;
+}
+
+.footer__brand:hover {
+    transform: scale(1.1);
+}

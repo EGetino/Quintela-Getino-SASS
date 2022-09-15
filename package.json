@@ -1,0 +1,22 @@
+{
+  "name": "quintela-getino-sass",
+  "version": "1.0.0",
+  "description": "proyecto Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EGetino/Quintela-Getino-SASS.git"
+  },
+  "author": "EmiliaGetino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EGetino/Quintela-Getino-SASS/issues"
+  },
+  "homepage": "https://github.com/EGetino/Quintela-Getino-SASS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
