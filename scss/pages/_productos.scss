@@ -4,29 +4,30 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    .prodmenu {
+
+        &__categories {
+            margin-top: 40px;
+            
+            &-list {
+                li {
+                    margin-top: 10px;
     
-}
-.prodmenu {
-
-    &__categories {
-        margin-top: 40px;
-        
-        &-list {
-            li {
-                margin-top: 10px;
-
-                a {
-                    &:hover {
-                        font-weight: bold;
-                        color: black;
+                    a {
+                        &:hover {
+                            font-weight: bold;
+                            color: black;
+                        }
                     }
+    
+                    
                 }
-
-                
             }
+    
         }
-
     }
+    
 }
 
 
@@ -97,8 +98,6 @@
             }
         }
     }
-
-
    
 }
 

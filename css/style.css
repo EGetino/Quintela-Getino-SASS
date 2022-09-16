@@ -24,33 +24,29 @@ ul {
     .whatsapp img:hover {
       transition: all 0.3s; }
 
-.navbar-nav {
-  align-items: center; }
-
-.navbar-brand {
+.navbar .navbar-brand {
   margin-right: 0;
   padding: 0 2em; }
-  .navbar-brand img {
+  .navbar .navbar-brand img {
     width: 80px;
     transition: all .3s; }
-    .navbar-brand img:hover {
+    .navbar .navbar-brand img:hover {
       transform: scale(1.1); }
 
-.navbar .navbar-nav .nav-link {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1em;
-  padding: .5em 2em; }
-
-.nav-link {
-  transition: all 0.3s; }
-  .nav-link:hover {
-    font-weight: 800;
-    color: #ffc0cb; }
-
-.nav-item a img {
-  transition: transfrom .3s; }
-  .nav-item a img:hover {
-    transform: scale(1.1); }
+.navbar div .navbar-nav {
+  align-items: center; }
+  .navbar div .navbar-nav .nav-item .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    padding: .5em 2em;
+    transition: all 0.3s; }
+    .navbar div .navbar-nav .nav-item .nav-link:hover {
+      font-weight: 800;
+      color: #ffc0cb; }
+    .navbar div .navbar-nav .nav-item .nav-link img {
+      transition: transfrom .3s; }
+      .navbar div .navbar-nav .nav-item .nav-link img:hover {
+        transform: scale(1.1); }
 
 .header__pages {
   display: flex;
@@ -59,12 +55,11 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-
-.pagestitle h1 {
-  margin: 10px;
-  text-align: center;
-  font-family: 'Playfair Display SC', serif;
-  font-size: 2em; }
+  .header__pages .pagestitle h1 {
+    margin: 10px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2em; }
 
 .footer__nav li a {
   color: white;
@@ -85,7 +80,7 @@ ul {
   gap: 10px; }
 
 @media (max-width: 992px) {
-  .aboutus {
+  .aboutus__main {
     display: flex;
     flex-direction: column; }
   .hero__content-socials {
@@ -106,11 +101,11 @@ ul {
 @media (max-width: 527px) {
   .prodmenu {
     display: none; }
-  .aboutus-img img {
+  .aboutus__main-img img {
     width: 450px; } }
 
 @media (max-width: 480px) {
-  .aboutus-img img {
+  .aboutus__main-img img {
     width: 350px; }
   .hero_content h2 {
     font-size: 1rem;
@@ -194,14 +189,13 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-
-.prodmenu__categories {
-  margin-top: 40px; }
-  .prodmenu__categories-list li {
-    margin-top: 10px; }
-    .prodmenu__categories-list li a:hover {
-      font-weight: bold;
-      color: black; }
+  .prodmain .prodmenu__categories {
+    margin-top: 40px; }
+    .prodmain .prodmenu__categories-list li {
+      margin-top: 10px; }
+      .prodmain .prodmenu__categories-list li a:hover {
+        font-weight: bold;
+        color: black; }
 
 .products {
   display: flex;
@@ -268,12 +262,6 @@ ul {
       border: solid 10px #ffc0cb;
       width: 500px;
       transition: all .2; }
-
-@keyframes animacion {
-  0% {
-    transform: translateY(100vh) scale(1); }
-  100% {
-    transform: translateY(-10vh) scale(0); } }
 
 .slide-in-right {
   animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }

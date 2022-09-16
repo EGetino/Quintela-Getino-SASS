@@ -1,45 +1,53 @@
+.navbar {
 
-.navbar-nav {
-    align-items: center;
-}
-
-.navbar-brand {
-    margin-right: 0;
-    padding: 0 2em;
-
-    img {
-        width: 80px;
-        transition: all .3s;
-
-        &:hover {
-            transform: scale(1.1);
+    .navbar-brand {
+        margin-right: 0;
+        padding: 0 2em;
+    
+        img {
+            width: 80px;
+            transition: all .3s;
+    
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
-}
 
+    div {
+        .navbar-nav {
+            align-items: center;    
+            
+            .nav-item {
 
-.navbar .navbar-nav .nav-link {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.1em;
-    padding: .5em 2em;
-}
+                .nav-link {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 1.1em;
+                    padding: .5em 2em;
+                
+                    transition: all 0.3s;
+                
+                    &:hover {
+                        font-weight: 800;
+                        color: #ffc0cb;
+                    }                    
 
-.nav-link {
-    transition: all 0.3s;
+                    img {
+                        transition: transfrom .3s;
+            
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
 
-    &:hover {
-        font-weight: 800;
-        color: #ffc0cb;
+        }
     }
+
 }
 
-.nav-item a img{
-    transition: transfrom .3s;
-
-    &:hover {
-        transform: scale(1.1);
-    }
-}
+// propiedades propias de header en pages.html (no index.html)
 
 .header__pages {
     display: flex;
@@ -49,13 +57,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;   
+
+    .pagestitle h1 {
+        margin: 10px;
+    
+        text-align: center;
+        font-family: 'Playfair Display SC', serif;       
+        font-size: 2em;
+    }
 }
 
-.pagestitle h1 {
-    margin: 10px;
 
-    text-align: center;
-    font-family: 'Playfair Display SC', serif;       
-    font-size: 2em;
-}
 
