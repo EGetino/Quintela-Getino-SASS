@@ -22,7 +22,7 @@ ul {
   .whatsapp img {
     transition: all 0.3s; }
     .whatsapp img:hover {
-      transition: all 0.3s; }
+      transform: scale(1.1); }
 
 .navbar .navbar-brand {
   margin-right: 0;
@@ -121,7 +121,7 @@ ul {
 .hero {
   min-height: 100vh;
   max-height: 100%;
-  background-image: url("../asetts/img/Cookies1.jpg");
+  background-image: url("/asetts/img/Cookies1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -211,7 +211,7 @@ ul {
     width: 250px;
     border: 1px solid #ffc0cb;
     border-radius: 10px;
-    box-shadow: 0 25px 50px -12px pink;
+    box-shadow: 0 25px 50px -12px #ffc0cb;
     transition: all 0.3s; }
     .products .cards:hover {
       transform: scale(1.1); }
@@ -260,8 +260,7 @@ ul {
     .aboutus__main-img img {
       border-radius: 10%;
       border: solid 10px #ffc0cb;
-      width: 500px;
-      transition: all .2; }
+      width: 500px; }
 
 .slide-in-right {
   animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }

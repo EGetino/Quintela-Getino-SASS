@@ -12,23 +12,19 @@
         gap: 30px; 
 
         &-info {
-
             p {
                 padding-top: 10px;
                 font-size: 15px;
             }
-
         }
 
         &-img {
             img {
                 border-radius: 10%;
-                border: solid 10px #ffc0cb;
+                border: solid 10px $primary;
                 width: 500px;
-            
-                transition: all .2;
-            }
         
+            }        
         }        
     
     }

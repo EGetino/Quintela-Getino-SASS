@@ -46,14 +46,14 @@
         background-color: white;
         padding: 20px;
         width: 250px;
-        border: 1px solid #ffc0cb;
+        border: 1px solid $primary;
         border-radius: 10px;
-        box-shadow: 0 25px 50px -12px rgba(255, 192, 203, 1);
+        box-shadow: 0 25px 50px -12px $primary;
     
         transition: all 0.3s;
 
         &:hover {
-            transform: scale(1.1);
+            transform: $scalemin;
         }
 
         .card__header{
@@ -62,7 +62,7 @@
 
             &-img{
                 width: 100%;
-                border: 3px solid #ffc0cb;
+                border: 3px solid $primary;
                 border-radius: 10px;
                 margin-bottom: 20px;
             }
@@ -92,7 +92,7 @@
             transition: all 0.3s;
     
             &:hover {
-                background-color: #ffc0cb;
+                background-color: $primary;
                 color: black;
                 font-weight: 500;
             }

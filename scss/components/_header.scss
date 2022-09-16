@@ -9,7 +9,7 @@
             transition: all .3s;
     
             &:hover {
-                transform: scale(1.1);
+                transform: $scalemin;
             }
         }
     }
@@ -29,14 +29,14 @@
                 
                     &:hover {
                         font-weight: 800;
-                        color: #ffc0cb;
+                        color: $primary;
                     }                    
 
                     img {
                         transition: transfrom .3s;
             
                         &:hover {
-                            transform: scale(1.1);
+                            transform: $scalemin;
                         }
                     }
                 }
