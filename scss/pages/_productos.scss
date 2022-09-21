@@ -1,9 +1,7 @@
 .prodmain {
-    padding: 40px;
+    @include templateFlex (space-around, none, fila);
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    padding: 40px;
 
     .prodmenu {
 

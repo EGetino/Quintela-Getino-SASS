@@ -33,3 +33,25 @@ ul {
     }
 }
 
+// extend
+.configImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+
+
+// mixin
+
+@mixin templateFlex ($valueJustify, $alignItems, $flex-direction) {
+    display: flex;
+    justify-content: $valueJustify;
+    align-items: $alignItems ;
+
+    @if ($flex-direction == true) {
+        flex-direction: column;
+    } @else if ($flex-direction == fila) {
+        flex-direction: row;
+    }
+    
+}

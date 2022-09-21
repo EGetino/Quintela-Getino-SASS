@@ -24,6 +24,11 @@ ul {
     .whatsapp img:hover {
       transform: scale(1.1); }
 
+.configImg, .header__pages, .hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
 .navbar .navbar-brand {
   margin-right: 0;
   padding: 0 2em; }
@@ -50,11 +55,10 @@ ul {
 
 .header__pages {
   display: flex;
+  justify-content: none;
+  align-items: none;
   flex-direction: column;
-  background-image: url("/asetts/img/BudínNaranja.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/asetts/img/BudínNaranja.png"); }
   .header__pages .pagestitle h1 {
     margin: 10px;
     text-align: center;
@@ -73,10 +77,10 @@ ul {
     transform: scale(1.1); }
 
 .footer__socials {
-  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style-type: none;
   gap: 10px; }
 
 @media (max-width: 992px) {
@@ -121,22 +125,34 @@ ul {
 .hero {
   min-height: 100vh;
   max-height: 100%;
-  background-image: url("/asetts/img/Cookies1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/asetts/img/Cookies1.jpg"); }
   .hero__content {
-    height: 80vh;
-    padding: 100px 100px 0px 100px;
     display: flex;
+    justify-content: none;
+    align-items: center;
     flex-direction: column;
-    align-items: center; }
+    height: 80vh;
+    padding: 100px 100px 0px 100px; }
     .hero__content h2 {
       font-family: 'Playfair Display SC', serif;
       font-weight: 700;
       font-size: 2em;
       text-align: center;
       color: white; }
+    .hero__content .hero__button {
+      width: 170px;
+      height: 45px;
+      margin-top: 20px;
+      font-weight: 600;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 5px;
+      border-color: black;
+      transition: all 0.3s; }
+      .hero__content .hero__button:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        transform: translateY(-5px);
+        font-weight: 700; }
     .hero__content-socials {
       list-style: none;
       margin-top: 170px;
@@ -147,21 +163,6 @@ ul {
         transition: all 0.5s; }
         .hero__content-socials .social_media:hover {
           transform: translateY(-10px); }
-
-.hero__button {
-  width: 170px;
-  height: 45px;
-  margin-top: 20px;
-  font-weight: 600;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
-  border-color: black;
-  transition: all 0.3s; }
-  .hero__button:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    transform: translateY(-5px);
-    font-weight: 700; }
 
 .tracking-in-expand {
   animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
@@ -185,10 +186,11 @@ ul {
     opacity: 1; } }
 
 .prodmain {
-  padding: 40px;
   display: flex;
+  justify-content: space-around;
+  align-items: none;
   flex-direction: row;
-  justify-content: space-around; }
+  padding: 40px; }
   .prodmain .prodmenu__categories {
     margin-top: 40px; }
     .prodmain .prodmenu__categories-list li {
@@ -248,11 +250,11 @@ ul {
   min-height: 100vh;
   background-color: white; }
   .aboutus__main {
-    padding: 40px;
-    margin: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
+    margin: 20px;
     gap: 30px; }
     .aboutus__main-info p {
       padding-top: 10px;

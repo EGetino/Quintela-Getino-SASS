@@ -50,13 +50,12 @@
 // propiedades propias de header en pages.html (no index.html)
 
 .header__pages {
-    display: flex;
-    flex-direction: column;
+    @extend .configImg;  
+    @include templateFlex (none, none, true)
+
     
     background-image: url("/asetts/img/BudínNaranja.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;   
+     
 
     .pagestitle h1 {
         margin: 10px;
