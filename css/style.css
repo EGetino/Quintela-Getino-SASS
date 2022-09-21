@@ -82,6 +82,24 @@ ul {
   align-items: center;
   list-style-type: none;
   gap: 10px; }
+  .footer__socials .rs-whatsapp {
+    color: black;
+    font-size: 35px;
+    transition: .3s; }
+    .footer__socials .rs-whatsapp:hover {
+      color: #81ee81; }
+  .footer__socials .rs-facebook {
+    color: black;
+    font-size: 35px;
+    transition: .3s; }
+    .footer__socials .rs-facebook:hover {
+      color: #8fc8ee; }
+  .footer__socials .rs-instagram {
+    color: black;
+    font-size: 35px;
+    transition: .3s; }
+    .footer__socials .rs-instagram:hover {
+      color: #f797cc; }
 
 @media (max-width: 992px) {
   .aboutus__main {
