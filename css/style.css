@@ -211,7 +211,7 @@ ul {
       margin-top: 10px; }
       .prodmain .prodmenu__categories-list li a:hover {
         font-weight: bold;
-        color: black; }
+        color: #8fc8ee; }
 
 .products {
   display: flex;
@@ -256,9 +256,9 @@ ul {
       cursor: pointer;
       transition: all 0.3s; }
       .products .cards .card__link:hover {
-        background-color: #ffc0cb;
         color: black;
-        font-weight: 500; }
+        font-weight: 500;
+        background-color: #ffc0cb; }
 
 .aboutus {
   min-height: 100vh;

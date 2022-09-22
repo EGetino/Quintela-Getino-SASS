@@ -51,7 +51,7 @@
 
 .header__pages {
     @extend .configImg;  
-    @include templateFlex (none, none, true)
+    @include templateFlex (none, none, true);
 
     
     background-image: url("/asetts/img/BudínNaranja.png");
