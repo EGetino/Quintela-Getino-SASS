@@ -21,31 +21,35 @@
         display: none;
     }
 
+    .aboutus__main {        
+        display: flex;
+        flex-direction: column;         
+    }
+    .aboutus__main-img  img{
+        width: 250px;
+    }
+
 }
 
-@media (max-width:576px) {
+@media only screen and (max-width: 768px) {
 
-    /* .aboutus_img {
-        transform: scale(0.5);
-    } */
-}
-
+}  
 
 @media (max-width:527px){
     .prodmenu {
         display: none;
     }
 
-    .aboutus__main-img img {
-        width: 450px;
-    }
+    // .aboutus__main-img img {
+    //     width: 450px;
+    // }
 }
 
 @media (max-width:480px) {
 
-    .aboutus__main-img  img {
-        width: 350px;
-    }
+    // .aboutus__main-img  img {
+    //     width: 350px;
+    // }
 
     .hero_content h2 {
         font-size: 1rem;

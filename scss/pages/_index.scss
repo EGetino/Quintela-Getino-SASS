@@ -8,11 +8,11 @@
     background-image: url("/asetts/img/Cookies1.jpg");
 
     &__content {    
-        @include templateFlex (none, center, true);
+        @include templateFlex (none, center,true);
 
         height: 80vh;
         padding: 100px 100px 0px 100px;
-
+ 
 
         h2 {
             font-family: 'Playfair Display SC', serif;
@@ -49,6 +49,7 @@
         
             display: flex;
             justify-content: center;
+            
             gap: 50px;    
             
             .social_media {

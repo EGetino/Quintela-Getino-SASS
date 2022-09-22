@@ -22,15 +22,15 @@
 .footer__socials  {
     @include templateFlex (center, center, false);
 
-    // mapa
+    // map
     $IconsSocials: (
         whatsapp: rgb(129, 238, 129),
         facebook: rgb(143, 200, 238), 
-        instagram: rgb(247, 151, 204), 
+        instagram: rgb(247, 151, 204) 
     );
 
-    @each $socialMedia, $colorIcon in $IconsSocials {
-        .rs-#{$socialMedia} {
+    @each $Media, $colorIcon in $IconsSocials {
+        .rs-#{$Media} {
             color: black;
             font-size: 35px;
             transition: .3s;
@@ -43,4 +43,5 @@
 
     list-style-type: none;
     gap: 10px;
+
 }
