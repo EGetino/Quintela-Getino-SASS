@@ -1,9 +1,7 @@
 .prodmain {
+    @include templateFlex (space-around, none, fila);
     padding: 40px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 
     .prodmenu {
 
@@ -17,12 +15,17 @@
                     a {
                         &:hover {
                             font-weight: bold;
-                            color: black;
+                    
+                            // uso de map-get
+                            color: map-get($map: $palette, $key:secondary );
+                            // color: black;
+                            
                         }
                     }
     
                     
                 }
+
             }
     
         }
@@ -91,10 +94,13 @@
         
             transition: all 0.3s;
     
-            &:hover {
-                background-color: $primary;
+            &:hover {              
                 color: black;
                 font-weight: 500;
+                
+                // uso de map-get
+                background-color: map-get($map: $palette, $key:primary );
+                // background-color: $primary;
             }
         }
     }

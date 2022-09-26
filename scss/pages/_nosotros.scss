@@ -3,12 +3,11 @@
     background-color: white;
 
     &__main {
+        @include templateFlex (space-between, center, false);
+        
         padding: 40px;
         margin: 20px;
     
-        display: flex;
-        justify-content: space-between; 
-        align-items: center;  
         gap: 30px; 
 
         &-info {

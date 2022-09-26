@@ -20,10 +20,28 @@
 
 
 .footer__socials  {
-    list-style-type: none;
+    @include templateFlex (center, center, false);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // map
+    $IconsSocials: (
+        whatsapp: rgb(129, 238, 129),
+        facebook: rgb(143, 200, 238), 
+        instagram: rgb(247, 151, 204) 
+    );
+
+    @each $Media, $colorIcon in $IconsSocials {
+        .rs-#{$Media} {
+            color: black;
+            font-size: 35px;
+            transition: .3s;
+
+            &:hover {
+                color: $colorIcon;
+            }
+        }
+    }
+
+    list-style-type: none;
     gap: 10px;
+
 }
